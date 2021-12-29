@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>등록화면(register.html)</title>
+</head>
+<body>
+	<h2>등록화면</h2>
+	<form action="RegisterServlet" method="post"> 		<!--post방식으로하면 dopost로 처리, get방식으로 method넣으면 doget으로 처리된다. -->
+		사원번호: <input type="text" name="employee_id"><br>
+		FirstName: <input type="text" name="first_name"><br>
+		LastName: <input type="text" name="last_name"><br>
+		Email: <input type="email" name="email"><br>
+		JobId: <input type="text" name="job_id"><br>
+		HireDate: <input type="date" name="hire_date"><br>
+		Salary: <input type="number" name="salary"><br>
+		<input type="submit" value="등록">
+	</form>
+</body>
+</html>
